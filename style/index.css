@@ -1,0 +1,21 @@
+
+
+#navbar{
+    display: flex;
+    background-color: rgb(241, 241, 246);
+    padding: 1rem;
+    justify-content: flex-end;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#navbar div{
+    cursor: pointer;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    /* gap: 1rem;
+    text-align: center; */
+}
